@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.efect {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+}
+
+.efect:hover {
+    border-bottom: 3px solid #57b846;
+    transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.tombol {
+    width: 350px;
+    border-radius: 100px;
+    margin-left: 80px;
+    margin-top: 30px;
+    height: 50px;
+    background-color: #57b846;
+    color: white;
+    border: none;
+}
+
+.tombol:hover {
+    background-color: rgb(59, 59, 59);
+}
+
+.warna {
+    color: grey;
+    margin-left: 80px;
+}
+
+a {
+    color: #57b846;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.help {
+    margin-top: 150px;
+}
+
+.custom-image {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/image.jpg);
+}
